@@ -57,6 +57,10 @@ Customer Data
 
 ![Screenshot (17)](https://github.com/user-attachments/assets/4f699be4-21ef-49cf-820f-690e3cd42b44)
 
+## DAta Analysis with SQL
+---
+
+
 
 
 
