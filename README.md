@@ -42,8 +42,14 @@ EDA involves the exploring of data to answer some questions about the data such 
 - Total revenue by subscription type
 - Top 3 regions by subscription cancellations
 - Total number of active and cancelled subscription
-- 
 
+## Data Analysis with Excel
+---
+Sales Data
+
+![Screenshot (13)](https://github.com/user-attachments/assets/7642ddd5-a856-47f3-99ce-c3021e3be33d)
+
+![Screenshot (14)](https://github.com/user-attachments/assets/5200f7a8-b048-47ed-a2ae-7b8e76f6555c)
 
 
 
