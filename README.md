@@ -51,8 +51,11 @@ Sales Data
 
 ![Screenshot (14)](https://github.com/user-attachments/assets/5200f7a8-b048-47ed-a2ae-7b8e76f6555c)
 
+Customer Data
 
+![Screenshot (16)](https://github.com/user-attachments/assets/f1434706-5756-4f7f-ad13-743f429ad4e1)
 
+![Screenshot (17)](https://github.com/user-attachments/assets/4f699be4-21ef-49cf-820f-690e3cd42b44)
 
 
 
