@@ -45,22 +45,130 @@ EDA involves the exploring of data to answer some questions about the data such 
 
 ## Data Analysis with Excel
 ---
-Sales Data
+### Sales Data
 
 ![Screenshot (13)](https://github.com/user-attachments/assets/7642ddd5-a856-47f3-99ce-c3021e3be33d)
 
 ![Screenshot (14)](https://github.com/user-attachments/assets/5200f7a8-b048-47ed-a2ae-7b8e76f6555c)
 
-Customer Data
+### Customer Data
 
 ![Screenshot (16)](https://github.com/user-attachments/assets/f1434706-5756-4f7f-ad13-743f429ad4e1)
 
 ![Screenshot (17)](https://github.com/user-attachments/assets/4f699be4-21ef-49cf-820f-690e3cd42b44)
 
-## DAta Analysis with SQL
+## Data Analysis with SQL
+---
+### Sales Data
+
+```SQL
+SELECT * FROM [dbo].[Sales Data];
+
+- Total sales from each product category 
+select PRODUCT, SUM(Total_Sales) as Totalsales from [dbo].[Sales Data]
+group by Product;
+
+- Number of sales transaction in each region 
+select Region, COUNT(Total_Sales) as  No_of_sales_by_region
+from [dbo].[Sales Data]
+Group by Region
+
+- Highest selling product by total sales value 
+select PRODUCT, SUM(Total_Sales) as highest_selling_product from [dbo].[Sales Data]
+group by Product
+order by PRODUCT desc
+
+- Total revenue per product 
+select PRODUCT, SUM(Total_Sales) as Totalsales from [dbo].[Sales Data]
+group by Product;
+
+- Monthly sales totals for the current year 
+select month(orderdate) as month,
+SUM(quantity*unitprice) as monthly_sales
+from[dbo].[Sales Data]
+where YEAR(OrderDate)=YEAR(GETDATE())
+group by MONTH(OrderDate);
+
+- Top 5 customers by total purchase amount 
+select top 5 customer_Id,
+sum(total_sales) AS Total_purchase_Amount
+From [Sales Data]
+group by customer_ID
+order by
+Total_purchase_Amount DESC;
+
+- Percentage of total sales contributed by each region 
+
+SELECT REGION, sum(quantity*unitprice) as Totalsales,
+sum(quantity*unitprice)* 1.0/ (select sum(Quantity * Unitprice) 
+from [dbo] .[Sales Data]) * 100
+as PercentageOfTotalSales
+from [dbo] .[Sales Data]
+group by Region;
+
+- Products with no sale in the last quater 
+select distinct product, orderid, quantity
+from [dbo].[Sales Data]
+where product NOT IN
+(select distinct product
+from [dbo].[Sales Data]
+where OrderDate between '2024-07-01' and '2024-09-30'
+)
+
+### Customer Data
+
+SELECT * FROM [dbo].[Customer Data];
+
+- Total number of customers from each region------
+Select region, COUNT(distinct customerid)
+as total_customer from [dbo].[Customer data]
+group by Region;
+
+- Most popular subscription type by the number of customers----
+Select top 1 subscriptiontype, 
+COUNT(distinct customerid)
+as total_customers from [dbo].[Customer data]
+group by SubscriptionType
+order by total_customers desc;
+
+- Customers who cancelled their subscription within 6 months 
+select customerid, customername, canceled
+from [dbo].[Customer data]
+where canceled = 'true' and month (subscriptionStart) between 1 and 6
+
+
+
+- Average subscription duration for all customers 
+select AVG(datediff(day, subscriptionstart, subscriptionend))
+as avg_subscription_duration from [dbo].[Customer data]
+
+
+
+- Customers with subscription longer than 12 months 
+select customerid from [dbo].[Customer data]
+where DATEDIFF(month, subscriptionstart, subscriptionend) >12;
+
+- Total Revenue by subscription type 
+select subscriptiontype, 
+SUM(revenue) as total_revenue from [dbo].[Customer data]
+group by SubscriptionType;
+
+- Top 3 regions by subscription cancellation 
+select Region, COUNT(customerid) as Totalccancellations
+from [dbo].[Customer data]
+where canceled = 'True'
+group by Region
+order by Totalccancellations DESC;
+
+- Total number of active and cancelled subscription 
+Select canceled, COUNT(customerid) as SubscriptionCount
+from[dbo].[Customer data]
+Group by Canceled;
+
+## Data Visualization with Power BI
 ---
 
-
+Sales data
 
 
 
