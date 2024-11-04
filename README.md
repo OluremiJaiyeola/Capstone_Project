@@ -61,11 +61,39 @@ EDA involves the exploring of data to answer some questions about the data such 
 
 ![Screenshot (17)](https://github.com/user-attachments/assets/4f699be4-21ef-49cf-820f-690e3cd42b44)
 
+## Data Visualization with Power BI
+---
+
+### Sales data
+
+![Screenshot (18)](https://github.com/user-attachments/assets/d69cce9d-c0ff-41a4-ba29-e5dc29d9d746)
+
+Customer data
+
+![Screenshot (19)](https://github.com/user-attachments/assets/48a3244d-166d-4ef0-9c3f-bf4604f62f3a)
+
+## Results on Analysis
+---
+
+### Sales Data
+- Shoes is the best selling product with over 600,000 sales
+- Socks is the least selling product with about 180,000 sales
+- The busiest month was February
+- There was strong and high sales in the first and second quarter
+- Sales was down by about 50% in the last quarter
+- In all the regions, South had 44% of sales, East had 23%, North had 18% and lastly West with 14%
+- Average sales for the year was 211.78% showing strong customer interest throughout the year 
+
+### Customer data
+- Basic Subsciption emerged as the most popular type of subscription accounting for over 50% of all the subscriptions
+- Average Subscription was 365vdays
+- East showed a remarkable commitment to their subscription with zero cancellation while others occasionaly cancel their subscription
+- Total revenue generated was 68 million which is quite impressive and also shows the loyalty cusomers place on theie subscription thereby building a strong foundation for the service
+ 
 ## Data Analysis with SQL
 ---
 
-Sales Data
-
+### Sales Data
 ```SQL
 SELECT * FROM [dbo].[Sales Data];
 
@@ -120,7 +148,7 @@ from [dbo].[Sales Data]
 where OrderDate between '2024-07-01' and '2024-09-30'
 )
 
-- Customer Data
+Customer Data
 
 SELECT * FROM [dbo].[Customer Data];
 
@@ -166,33 +194,8 @@ Select canceled, COUNT(customerid) as SubscriptionCount
 from[dbo].[Customer data]
 Group by Canceled;
 
-## Data Visualization with Power BI
----
 
-Sales data
 
-![Screenshot (18)](https://github.com/user-attachments/assets/d69cce9d-c0ff-41a4-ba29-e5dc29d9d746)
 
-Customer data
 
-![Screenshot (19)](https://github.com/user-attachments/assets/48a3244d-166d-4ef0-9c3f-bf4604f62f3a)
-
-## Results on Analysis
----
-
-Sales Data
-- Shoes is the best selling product with over 600,000 sales
-- Socks is the least selling product with about 180,000 sales
-- The busiest month was February
-- There was strong and high sales in the first and second quarter
-- Sales was down by about 50% in the last quarter
-- In all the regions, South had 44% of sales, East had 23%, North had 18% and lastly West with 14%
-- Average sales for the year was 211.78% showing strong customer interest throughout the year 
-
-customer data
-- Basic Subsciption emerged as the most popular type of subscription accounting for over 50% of all the subscriptions
-- Average Subscription was 365vdays
-- East showed a remarkable commitment to their subscription with zero cancellation while others occasionaly cancel their subscription
-- Total revenue generated was 68 million which is quite impressive and also shows the loyalty cusomers place on theie subscription thereby building a strong foundation for the service
-- 
 
