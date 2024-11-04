@@ -59,7 +59,8 @@ EDA involves the exploring of data to answer some questions about the data such 
 
 ## Data Analysis with SQL
 ---
-### Sales Data
+
+Sales Data
 
 ```SQL
 SELECT * FROM [dbo].[Sales Data];
@@ -115,7 +116,7 @@ from [dbo].[Sales Data]
 where OrderDate between '2024-07-01' and '2024-09-30'
 )
 
-### Customer Data
+- Customer Data
 
 SELECT * FROM [dbo].[Customer Data];
 
@@ -168,8 +169,12 @@ Group by Canceled;
 ## Data Visualization with Power BI
 ---
 
-Sales data
+### Sales data
 
+![Screenshot (18)](https://github.com/user-attachments/assets/d69cce9d-c0ff-41a4-ba29-e5dc29d9d746)
 
+###
+
+![Screenshot (19)](https://github.com/user-attachments/assets/48a3244d-166d-4ef0-9c3f-bf4604f62f3a)
 
 
