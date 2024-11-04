@@ -137,13 +137,9 @@ select customerid, customername, canceled
 from [dbo].[Customer data]
 where canceled = 'true' and month (subscriptionStart) between 1 and 6
 
-
-
 - Average subscription duration for all customers 
 select AVG(datediff(day, subscriptionstart, subscriptionend))
 as avg_subscription_duration from [dbo].[Customer data]
-
-
 
 - Customers with subscription longer than 12 months 
 select customerid from [dbo].[Customer data]
@@ -169,11 +165,11 @@ Group by Canceled;
 ## Data Visualization with Power BI
 ---
 
-### Sales data
+Sales data
 
 ![Screenshot (18)](https://github.com/user-attachments/assets/d69cce9d-c0ff-41a4-ba29-e5dc29d9d746)
 
-###
+Customer data
 
 ![Screenshot (19)](https://github.com/user-attachments/assets/48a3244d-166d-4ef0-9c3f-bf4604f62f3a)
 
