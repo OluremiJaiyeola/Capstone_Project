@@ -8,7 +8,7 @@ In this project, we ware tasked with analyzing the sales performance of a retail
 - Sales Data - This shows the selling of different products in different Regions at different times.
 - Customer Data - This shows customer behaviour to TV subscription over a certain period of time.
 
-## Data Cleaning and Preparation
+## Data Cleaning and Preparation.
 ---
 This is where some lines of codes, queries and DAX Expressions are used during the analysis. At the initial stage, some cleaning and preparations were performed:
 - Loading data and inspection 
@@ -16,17 +16,17 @@ This is where some lines of codes, queries and DAX Expressions are used during t
 - Removing the duplicates
 - Handling missing variables
 
-## Data Sourses
+## Data Sources
 ---
 The main soources for this data anaylsis are the "Sales Data.csv" and "Customer Data.csv" which are open source datasets which are available for free download from online repositories like Kaggle, FRED or other similar platforms. 
 
-## Tools Used
+## Tools Used.
 ---
 - Microsoft Excel: Employed for data cleaning and visualization
 - STructured Query Language (SQL): For data cleaning through queries
 - Power Business Intelligence (Power BI): For both data cleaning and visualization.
 
-## Exploratory Data Analysis
+## Exploratory Data Analysis.
 ---
 EDA involves the exploring of data to answer some questions about the data such as;
 
@@ -47,7 +47,7 @@ EDA involves the exploring of data to answer some questions about the data such 
 - Top 3 regions by subscription cancellations
 - Total number of active and cancelled subscription
 
-## Data Analysis with Excel
+## Data Analysis with Excel.
 ---
 ### Sales Data
 
@@ -61,7 +61,7 @@ EDA involves the exploring of data to answer some questions about the data such 
 
 ![Screenshot (17)](https://github.com/user-attachments/assets/4f699be4-21ef-49cf-820f-690e3cd42b44)
 
-## Data Visualization with Power BI
+## Data Visualization with Power BI.
 ---
 
 ### Sales data
@@ -72,7 +72,7 @@ Customer data
 
 ![Screenshot (19)](https://github.com/user-attachments/assets/48a3244d-166d-4ef0-9c3f-bf4604f62f3a)
 
-## Results on Analysis
+## Results on Analysis.
 ---
 
 ### Sales Data
@@ -90,7 +90,7 @@ Customer data
 - East showed a remarkable commitment to their subscription with zero cancellation while others occasionaly cancel their subscription
 - Total revenue generated was 68 million which is quite impressive and also shows the loyalty cusomers place on theie subscription thereby building a strong foundation for the service
  
-## Data Analysis with SQL
+## Data Analysis with SQL.
 ---
 
 ### Sales Data
