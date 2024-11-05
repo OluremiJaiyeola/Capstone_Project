@@ -17,6 +17,7 @@
 
 [Data Analysis with SQL](data-analysis-with-sql)
 
+[Insights on Analysis](#insights-on-analysis)
 
 
 ## Project Overview.
@@ -84,13 +85,13 @@ EDA involves the exploring of data to answer some questions about the data such 
 
 ### Sales data
 
-![Screenshot (18)](https://github.com/user-attachments/assets/d69cce9d-c0ff-41a4-ba29-e5dc29d9d746)
+
 
 Customer data
 
 ![Screenshot (19)](https://github.com/user-attachments/assets/48a3244d-166d-4ef0-9c3f-bf4604f62f3a)
 
-## Results on Analysis.
+## Insights on Analysis.
 ---
 
 ### Sales Data
