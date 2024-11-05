@@ -5,17 +5,19 @@
 
 [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 
-Data Sources
+[Data Sources](#data-sources)
 
-Tools Used.
+[Tools Used](tools-used)
 
-Exploratory Data Analysis.
+[Exploratory Data Analysis](#exploratory-data-analysis)
 
-Data Analysis with Excel.
+[Data Analysis with Excel](#data-analysis-with-excel)
 
-Data Visualization with Power BI.
+[Data Visualization with Power BI](#data-visualization-with-power-bi)
 
-Data Analysis with SQL.
+[Data Analysis with SQL](data-analysis-with-sql)
+
+
 
 ## Project Overview.
 ---
