@@ -85,6 +85,7 @@ EDA involves the exploring of data to answer some questions about the data such 
 
 ### Sales data
 
+![Screenshot (18)](https://github.com/user-attachments/assets/06c50952-e1f1-4d19-9876-56e8e95a4f5d)
 
 
 Customer data
