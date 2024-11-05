@@ -1,6 +1,22 @@
 # Capstone_Project
 ---
 
+[Project Overview](#project-overview)
+
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+
+Data Sources
+
+Tools Used.
+
+Exploratory Data Analysis.
+
+Data Analysis with Excel.
+
+Data Visualization with Power BI.
+
+Data Analysis with SQL.
+
 ## Project Overview.
 ---
 
@@ -22,9 +38,9 @@ The main soources for this data anaylsis are the "Sales Data.csv" and "Customer 
 
 ## Tools Used.
 ---
-- Microsoft Excel: Employed for data cleaning and visualization
+- Microsoft Excel: Employed for data cleaning and visualization [Download here](https://www.microsoft.com)
 - STructured Query Language (SQL): For data cleaning through queries
-- Power Business Intelligence (Power BI): For both data cleaning and visualization.
+- Power Business Intelligence (Power BI): For both data cleaning and visualization. [Download here](https://www.microsoft.com)
 
 ## Exploratory Data Analysis.
 ---
