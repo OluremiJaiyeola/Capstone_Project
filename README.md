@@ -40,9 +40,9 @@ The main soources for this data anaylsis are the "Sales Data.csv" and "Customer 
 
 ## Tools Used.
 ---
-- Microsoft Excel: Employed for data cleaning and visualization [Download here](https://www.microsoft.com)
+- Microsoft Excel: Employed for data cleaning and visualization [Download Here](https://www.microsoft.com)
 - STructured Query Language (SQL): For data cleaning through queries
-- Power Business Intelligence (Power BI): For both data cleaning and visualization. [Download here](https://www.microsoft.com)
+- Power Business Intelligence (Power BI): For both data cleaning and visualization. [Download Here](https://www.microsoft.com)
 
 ## Exploratory Data Analysis.
 ---
