@@ -92,6 +92,13 @@ Customer data
 
 ![Screenshot (19)](https://github.com/user-attachments/assets/48a3244d-166d-4ef0-9c3f-bf4604f62f3a)
 
+
+
+![Attrition count 2](https://github.com/user-attachments/assets/10d925bf-c91a-4239-8529-f636fc032f7d)
+
+
+
+
 ## Insights on Analysis.
 ---
 
